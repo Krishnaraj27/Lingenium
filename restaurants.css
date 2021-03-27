@@ -1,0 +1,59 @@
+body{
+	margin: 0px;
+}
+
+   /*navigation bar*/
+
+.navigation{
+	/*background-color: #291742;*/
+	margin: 0px;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+.navBtn{
+	padding: 1.5rem;
+	margin: 1.2rem;
+	color: black;
+}
+
+.navItems{
+	color: white;
+	font-size: 1.2rem;
+	margin: 1.2rem;
+}
+
+.navItems:hover{
+	color: grey;
+	cursor: pointer;
+}
+
+a:active{
+	color: black;
+}
+
+
+   /*Section 1   */
+
+.city-ctn{
+	margin-left: 3.5rem;
+}
+
+  /*Section 2*/
+
+.rest-ctn img{
+	border-radius: 1rem;
+}
+
+.rest-ctn a{
+	color: blue;
+}
+.rest-ctn a:hover{
+	cursor: pointer;
+	color: purple;
+}
+
+.rest-locality{
+	font-size: 0.9rem;
+}

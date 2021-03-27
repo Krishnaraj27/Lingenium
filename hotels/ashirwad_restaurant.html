@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
-    <title>Ashirwad Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="hotels.css">
+    <style type="text/css">
+      body{
+        background-color: #d8d6d6;
+      }
+    </style>
+    
+    <title>Document</title>
 </head>
 <body>
     <!------------------------------------------------------------------------------------header-->
-    <header class="text-gray-600 body-font">
+    <header class="text-gray-600 bg-yellow-500 body-font mx-0">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
@@ -34,9 +40,7 @@
               <br class="hidden lg:inline-block">Ratings : ⭐⭐⭐⭐
             </h1>
            <h3 class="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">Address:</h3> <p class="mb-8 leading-relaxed">Ashirwad Resturant At Jashodanagar Makes sure
-one has a great food experience by offering highly 
-palatable food
-, Ahmedabad, Gujarat 382445</p>
+            one has a great food experience by offering highly palatable food, Ahmedabad, Gujarat 382445</p>
             <div class="flex justify-center">
              
             </div>
@@ -46,11 +50,42 @@ palatable food
           </div>
         </div>
       </section>
+
+      <!------ Waiting Section --------->
+
+        <section class="text-gray-600 mx-20 body-font">
+        
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Average Waiting time</h1>
+            
+            <div class="p-2 md:w-1/4 sm:w-1/2 w-full object-center ">
+              <div class="border-2 border-gray-200 px-4 py-4 hover:bg-gray-100 rounded-lg ">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">30 Minutes</h2>
+                <p class="leading-relaxed">21 Peoples</p>
+              </div>
+            </div>
+      </section>
+
+      <hr>
+
       <!--------------------------------------------------------------------------------------table-->
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-4 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">CHINESE SOUP
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Menu</h1>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-2xl text-1xl font-medium title-font mb-2 text-gray-900">CHINESE SOUP
 </h1>
           </div>
           <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -142,9 +177,9 @@ palatable food
           </div>
           <!-------------------------------------RAITA & SALAD------------------------------------------->
            <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-14 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">RAITA & SALAD
+            <h1 class="sm:text-2xl text-1xl font-medium title-font mb-2 text-gray-900">RAITA & SALAD
 </h1>
           </div>
           <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -245,9 +280,9 @@ palatable food
           </div>
           <!-----------------------------------------STARTER---------------------------------------->
           <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-14 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">STARTER
+            <h1 class="sm:text-2xl text-1xl font-medium title-font mb-2 text-gray-900">STARTER
 </h1>
           </div>
           <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -357,9 +392,9 @@ palatable food
           </div>
           <!------------------------------------INDIAN---------------------------------------------->
           <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-14 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">INDIAN
+            <h1 class="sm:text-2xl text-1xl font-medium title-font mb-2 text-gray-900">INDIAN
 </h1>
           </div>
           <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -555,9 +590,9 @@ palatable food
           <!-----------------------------------------Paneer----------------------------------------->
           <br>
           <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-14 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Paneer
+            <h1 class="sm:text-2xl text-1xl font-medium title-font mb-2 text-gray-900">Paneer
 </h1>
           </div>
           <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -766,9 +801,9 @@ palatable food
           <!------------------------------------------TANDOOR--------------------------------------------------->
           <br>
           <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-14 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">TANDOOR
+            <h1 class="sm:text-2xl text-1xl font-medium title-font mb-2 text-gray-900">TANDOOR
 </h1>
           </div>
           <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -938,9 +973,9 @@ palatable food
           <!-----------------------------------------RICE------------------------------------------------>
           <br>
           <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-14 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">RICE
+            <h1 class="sm:text-2xl text-1xl font-medium title-font mb-2 text-gray-900">RICE
 </h1>
           </div>
           <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -1063,9 +1098,9 @@ palatable food
           <!---------------------------------SWEET&DESSERT---------------------------------------->
            <br>
           <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-14 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">SWEET & DESSERT
+            <h1 class="sm:text-2xl text-1xl font-medium title-font mb-2 text-gray-900">SWEET & DESSERT
 
 </h1>
           </div>
@@ -1170,43 +1205,24 @@ palatable food
               </tbody>
             </table>
           </div>
-          <!---------------------------------------------------------------------------average waiting time-->
-       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Average Waiting time</h1>
-          </div>
-          <div class="flex flex-wrap -m-4 text-center items-center object-center justify-center ">
-            
-            <div class="p-4 md:w-1/4 sm:w-1/2 w-full object-center hover:bg-gray-100">
-              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg ">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                  <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
-                </svg>
-                <h2 class="title-font font-medium text-3xl text-gray-900">30 Minutes</h2>
-                <p class="leading-relaxed">21 Peoples</p>
-              </div>
-            </div>
-
-        </div>
-      </section>
+          
                 
 
-      <!--------------------------------------------------------------------------------------------footer-->
+      <!--------------------footer------------>
+    <hr>
       <footer class="text-gray-600 body-font text-center">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
            
-            <span class="ml-3 text-xl">XYZ</span>
+            <span class="ml-3 text-xl">Lingenium</span>
           </a>
-          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 XYZ —
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 Lingenium —
             <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@GITians</a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           </span>
         </div>
-      </footer> 
+      </footer>
+      
 </body>
 </html>
